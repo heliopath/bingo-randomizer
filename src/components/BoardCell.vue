@@ -26,12 +26,18 @@ export default {
 
 <style>
   .board-cell{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+    padding: 5px;
     background-color: aqua;
     display: flex;
     flex-direction: column;
     align-content: center;
     justify-content: center;
+  }
+
+  h1 {
+    font-size: 24px;
   }
 </style>
