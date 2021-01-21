@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <BoardCell />
+  <div class="bingo-board">
+    <BoardCell v-for="n in 25" :key="n" />
   </div>
 </template>
 
@@ -13,5 +13,10 @@ export default {
 </script>
 
 <style>
-
+  .bingo-board {
+    display: inline-grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    align-items: center;
+  }
 </style>

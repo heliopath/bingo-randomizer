@@ -35,9 +35,14 @@ export default {
     flex-direction: column;
     align-content: center;
     justify-content: center;
+    border: 1px solid black
+  }
+
+  .board-cell:nth-child(2n) {
+    background-color: bisque;
   }
 
   h1 {
-    font-size: 24px;
+    font-size: 20px;
   }
 </style>
