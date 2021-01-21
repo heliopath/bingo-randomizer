@@ -1,4 +1,4 @@
-[
+export default [
   "lifeguard",
   "harry potter",
   "daemon",

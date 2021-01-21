@@ -6,20 +6,20 @@
 </template>
 
 <script>
+import {getRandomAuSetting, getRandomShip, getRandomKeyword} from '../actions/dataActions'
+
 export default {
-  props: {
-    ship: {
-      type: String,
-      default: ''
-    },
-    keyword: {
-      type: String,
-      default: ''
-    },
-    au: {
-      type: String,
-      default: ''
+  data () {
+    return {
+      ship: '',
+      keyword: '',
+      au: ''
     }
+  },
+  mounted () {
+    this.ship = getRandomShip()
+    this.keyword = getRandomKeyword()
+    this.au = getRandomAuSetting()
   }
 }
 </script>

@@ -1,4 +1,4 @@
-[
+export default [
   "ahegao",
   "mutual masturbation",
   "voyeurism",

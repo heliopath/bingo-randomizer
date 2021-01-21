@@ -1,4 +1,4 @@
-[
+export default [
   "yoonjin",
   "2seok",
   "namjin",

@@ -1,4 +1,4 @@
-[
+export default [
   "starry night",
   "crying while hugging",
   "sneakers",
